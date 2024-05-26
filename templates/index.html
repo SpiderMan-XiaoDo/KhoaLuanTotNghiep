@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block heading %} Results {% endblock %}
+
+{% block context %}
+    <div class='message'>
+        <p>Question: {{ messages['question'] }}</p>
+        <p>Context: {{ messages['context'] }}</p>
+        <p>Answer: {{ messages['answer'] }}</p>
+    </div>
+    <form action="/create">
+        <input type="submit" value="Demo" />
+    </form>
+{% endblock %}

@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "context": "Tin tức về chủ đề \" Thủ tướng Ấn Độ Narendra Modi \"",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 36,
+                                    "text": "Narendra Modi"
+                                }
+                            ],
+                            "id": "4e03f08a78b744a48f0f380441a227f4",
+                            "question": "Ai là thủ tướng Ấn Độ hiện tại",
+                            "is_impossible": false,
+                            "plausible_answers": []
+                        }
+                    ]
+                }
+            ],
+            "title": "Ai là thủ tướng Ấn Độ hiện tại"
+        }
+    ]
+}
