@@ -3,7 +3,7 @@
 Respository này sẽ xây dựng mô hình phoBERT cho hệ thống trả lời câu hỏi tiếng Việt. Đồng thời respository này sẽ triển khai mô hình PhoBERT đã xây dựng được thông qua việc sử dụng thư viện FastAPI của python
 
 ## Tóm tắt
-Dự án này được hoàn thành bởi Nguyễn Luôn Mong Đổ, sinh viên ngành CNTT trường Đại Học Khoa Học Huế.
+Dự án này được hoàn thành bởi Nguyễn Luôn Mong Đổ, sinh viên ngành KHMT khoa CNTT trường Đại Học Khoa Học Huế.
 
 Trong dự án này, tôi sẽ trình bày cách xây dựng mô hình đồng thời triển khai mô hình ở phía backend bằng thư viện FastAPI của python.
 
@@ -15,11 +15,16 @@ Trong dự án này, tôi sẽ trình bày cách xây dựng mô hình đồng t
 ```
     https://github.com/SpiderMan-XiaoDo/KhoaLuanTotNghiep.git
 ```
-2. Tải mô hình đã được huấn luyện và lưu nó vào thư mục modelv2 tại đường dẫn:  https://www.kaggle.com/datasets/nguyendolikeyou/pretrain-phobert-base/data (Nguyên nhân: kích thước pretrain-model có kích thước quá lớn)
+2. Tải mô hình đã được huấn luyện và lưu nó vào thư mục modelv2 tại đường dẫn:  https://www.kaggle.com/datasets/nguyendolikeyou/pretrain-phobert-base/data (Nguyên nhân: pretrain-model có kích thước quá lớn, không thể lưu trữ tại github)
 
 3. Để hiểu hơn về quá trình xây dựng mô hình và cách mà mô hình hoạt động, vui lòng tham khảo notebook tại kaggle với đường dẫn sau:https://www.kaggle.com/code/nguyendolikeyou/fine-tuning-phobertv3
 ```
 
+```
+4. Triển khai API:
+
+```
+uvicorn main:app --reload
 ```
 ## Tập dữ liệu sử dụng
 
