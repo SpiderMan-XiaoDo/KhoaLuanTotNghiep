@@ -7,7 +7,7 @@ Dự án này được hoàn thành bởi Nguyễn Luôn Mong Đổ, sinh viên 
 
 Trong dự án này, tôi sẽ trình bày cách xây dựng mô hình đồng thời triển khai mô hình ở phía backend bằng thư viện FastAPI của python.
 
-Để xây dựng giao diện cho ứng dụng, hãy tham khảo respository triển khai ứng dụng trả lời câu hỏi ở phía FE tại đường dẫn:
+Để xây dựng giao diện cho ứng dụng, hãy tham khảo respository triển khai ứng dụng trả lời câu hỏi ở phía FE tại đường dẫn: https://github.com/SpiderMan-XiaoDo/myapp.git
 
 
 ## Quá trình cài đặt, thiết lập môi trường
